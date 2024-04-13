@@ -33,3 +33,11 @@ pnpm add --save-dev --save-exact @biomejs/biome
 
 pnpm biome init
 ```
+
+#### Mantine
+
+[こちら](https://mantine.dev/getting-started/#get-started-without-framework)で必要なパッケージをインストール
+
+```
+pnpm add @mantine/core @mantine/hooks
+```

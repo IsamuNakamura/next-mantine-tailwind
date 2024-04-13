@@ -11,7 +11,15 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
-  "cSpell.words": ["biomejs", "nextjs", "tabler", "webp", "tailwindcss", "corepack"],
+  "cSpell.words": ["biomejs", "nextjs", "tabler", "webp", "tailwindcss", "corepack", "mantine"],
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "node_modules/@mantine/core/styles.css"
+  ],
+  "css.lint.unknownAtRules": "ignore",
   "editor.codeActionsOnSave": {
     "quickfix.biome": "always",
     "source.organizeImports.biome": "always"
@@ -21,6 +29,7 @@
   "editor.quickSuggestions": {
     "strings": true
   },
+  "editor.tabSize": 2,
   "files.encoding": "utf8",
   "files.eol": "\n",
   "files.insertFinalNewline": true,
