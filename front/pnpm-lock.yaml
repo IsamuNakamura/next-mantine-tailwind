@@ -35,7 +35,7 @@ devDependencies:
     specifier: ^18
     version: 18.2.23
   autoprefixer:
-    specifier: ^10.4.19
+    specifier: ^10.0.1
     version: 10.4.19(postcss@8.4.38)
   postcss:
     specifier: ^8

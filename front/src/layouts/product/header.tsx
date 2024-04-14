@@ -31,7 +31,9 @@ export function Header() {
 				</Group>
 
 				<Group>
-					<Button component={Link}>Login</Button>
+					<Button component={Link} href="/dashboard">
+						Login
+					</Button>
 				</Group>
 			</Container>
 		</header>
