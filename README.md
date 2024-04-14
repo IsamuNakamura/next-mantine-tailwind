@@ -1,6 +1,7 @@
 ### Stack
 
 - Next.js(App Router)
+- Mantine
 - TailwindCSS
 - Biome
 - pnpm
