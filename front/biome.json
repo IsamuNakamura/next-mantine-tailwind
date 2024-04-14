@@ -17,8 +17,12 @@
 		"rules": {
 			"all": true,
 			"nursery": {
+				"all": true,
 				"noNodejsModules": "off",
 				"noUndeclaredDependencies": "off"
+			},
+			"style": {
+				"noImplicitBoolean": "off"
 			}
 		}
 	},
